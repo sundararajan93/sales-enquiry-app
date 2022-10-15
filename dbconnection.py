@@ -71,15 +71,18 @@ DBUSER = "root"
 DBPASS = "password@321"
 DBNAME = "sales"
 
-# create_table("enquiry1")
-# insert_enquiry_data("enquiry", \
-#     ("Sundar", "Robert", "CitiBank", "No1, Poland", "+13428934",\
-#     "robert@citibank.com", "1.Deploy MW PROD 2.Scale up AWS Cores"))
+# To connect to the DB
+# db_connect(DBHOST, DBUSER, DBPASS, DBNAME)
 
+# To create table
+# create_table("enquiry1")
+
+# To delete table Data only
 # delete_table("enquiry", True)
 
+# To delete table completely
+# delete_table("enquiry", False)
+
+# Reading Values in table
 # for i in read_table_data("enquiry"):
 #     print(i)
-
-# print(read_table_data("enquiry"))
-# db_connect(DBHOST, DBUSER, DBPASS, DBNAME)
