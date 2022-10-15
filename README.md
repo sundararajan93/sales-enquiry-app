@@ -51,4 +51,4 @@ If the database connectivity is configured and working properly the enquiry deta
 ![Database](https://i.imgur.com/6AEDtYx.png)
 
 
-**Note: ** In our `dbconnection.py` the password was stored as a plain text. This is not recommended thing to do in production. It's worth to look at the repo () to add password vault mechanism to your code.
+**Note: ** In our `dbconnection.py` the password was stored as a plain text. This is not recommended thing to do in production. It's worth to look at the repo [vaultpass](https://github.com/sundararajan93/vaultpass) to add password vault mechanism to your code.
